@@ -24,6 +24,7 @@ public class ITestListenerClass_suite extends TestListenerAdapter {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("onTestFailure");
+		System.out.println("for git purpose");
 	}
 
 	@Override
